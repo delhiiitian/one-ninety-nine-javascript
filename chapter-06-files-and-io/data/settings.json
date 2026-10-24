@@ -1,0 +1,6 @@
+{
+  "appName": "NoteKeeper",
+  "theme": "dark",
+  "autosaveSeconds": 30,
+  "recentFiles": ["todo.txt", "ideas.md"]
+}

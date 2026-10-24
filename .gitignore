@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+tmp/
+chapter-06-files-and-io/output/
+projects/09-notes-app/data/
+!chapter-06-files-and-io/data/*.log
