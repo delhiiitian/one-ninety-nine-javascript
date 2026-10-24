@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notes</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Notes</h1>
+    <input id="search" type="search" placeholder="Search notes... (press /)" aria-label="Search notes">
+  </header>
+
+  <form id="note-form">
+    <input id="title" name="title" placeholder="Title" maxlength="120" required>
+    <textarea id="body" name="body" placeholder="Write something..." rows="3"></textarea>
+    <input id="tags" name="tags" placeholder="Tags, comma separated">
+    <button type="submit">Add note</button>
+    <p id="status" role="status"></p>
+  </form>
+
+  <main id="notes" aria-live="polite"></main>
+  <template id="note-template">
+    <article class="note">
+      <h2 class="note-title"></h2>
+      <p class="note-body"></p>
+      <p class="note-tags"></p>
+      <footer>
+        <button data-action="pin"></button>
+        <button data-action="delete">Delete</button>
+      </footer>
+    </article>
+  </template>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
