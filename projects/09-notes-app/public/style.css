@@ -1,0 +1,15 @@
+:root { --bg: #f7f5f0; --card: #fff; --ink: #1d1d1f; --muted: #6b6b70; --accent: #c2410c; }
+* { box-sizing: border-box; }
+body { margin: 0 auto; max-width: 900px; padding: 16px; font: 16px/1.5 system-ui, sans-serif; background: var(--bg); color: var(--ink); }
+header { display: flex; gap: 16px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+input, textarea, button { font: inherit; padding: 8px 10px; border: 1px solid #d4d4d8; border-radius: 8px; }
+#note-form { display: grid; gap: 8px; background: var(--card); padding: 16px; border-radius: 12px; margin: 16px 0; }
+button { cursor: pointer; background: var(--ink); color: #fff; border: none; }
+button[data-action="delete"] { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+#notes { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.note { background: var(--card); border-radius: 12px; padding: 12px 16px; }
+.note.pinned { outline: 2px solid var(--accent); }
+.note h2 { font-size: 1.1rem; margin: 0 0 4px; }
+.note-tags { color: var(--muted); font-size: 0.85rem; }
+.note footer { display: flex; gap: 8px; }
+#status.error { color: var(--accent); }

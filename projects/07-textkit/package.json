@@ -1,0 +1,24 @@
+{
+  "name": "textkit",
+  "version": "1.0.0",
+  "description": "Small text utilities: case conversion, slugs, word counts and reading time",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./case": "./src/case.js"
+  },
+  "bin": {
+    "textkit": "./bin/textkit.js"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "start": "node bin/textkit.js",
+    "demo": "node bin/textkit.js stats README.md"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": ["text", "slug", "case", "word count"],
+  "license": "MIT"
+}

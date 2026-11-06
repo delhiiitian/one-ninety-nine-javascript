@@ -1,0 +1,10 @@
+[
+  { "isbn": "9780143039693", "title": "Godaan", "author": "Premchand", "year": 1936, "tags": ["classic", "hindi", "fiction"], "copies": 2 },
+  { "isbn": "9780226567105", "title": "Malgudi Days", "author": "R. K. Narayan", "year": 1943, "tags": ["classic", "short stories", "fiction"], "copies": 3 },
+  { "isbn": "9780143417057", "title": "The God of Small Things", "author": "Arundhati Roy", "year": 1997, "tags": ["booker", "fiction"], "copies": 1 },
+  { "isbn": "9780099578512", "title": "Midnight's Children", "author": "Salman Rushdie", "year": 1981, "tags": ["booker", "fiction", "history"], "copies": 2 },
+  { "isbn": "9780593230572", "title": "Eloquent JavaScript", "author": "Marijn Haverbeke", "year": 2018, "tags": ["programming", "javascript"], "copies": 4 },
+  { "isbn": "9781491904244", "title": "You Don't Know JS Yet", "author": "Kyle Simpson", "year": 2020, "tags": ["programming", "javascript"], "copies": 2 },
+  { "isbn": "9780262033848", "title": "Introduction to Algorithms", "author": "Thomas H. Cormen", "year": 2009, "tags": ["programming", "algorithms"], "copies": 1 },
+  { "isbn": "9788172234980", "title": "Wings of Fire", "author": "A. P. J. Abdul Kalam", "year": 1999, "tags": ["biography", "science"], "copies": 3 }
+]
